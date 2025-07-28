@@ -1,0 +1,26 @@
+package Loop;
+
+//The number divided by sum of its digit
+public class HarshadNumber {
+
+	public static void main(String[] args)
+	{
+		int n1,s;
+		System.out.println("Harshad Number=");
+		for(int i=1;i<=100;i++)
+		{
+			n1=i;
+			s=0;
+			while(n1>0)
+			{
+				int d=n1%10;
+				    s=s+d;
+				    n1=n1/10;
+			}
+			if(i%s==0)
+				System.out.println(" "+i);
+		}
+
+	}
+
+}
