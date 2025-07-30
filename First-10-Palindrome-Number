@@ -1,0 +1,28 @@
+package Loop;
+
+public class First10Palindrome {
+
+	public static void main(String[] args) 
+	{
+		int c=0;
+	   for(int i=1;i<=100;i++)
+	   {
+		   int n1=i;
+		   int r=0;
+		   while(n1>0)
+		   {
+			   int d=n1%10;
+			       r=r*10+d;
+			       n1=n1/10;
+		   }
+		   if(r==i)
+		   {
+			   c++;
+		       if(c<=10)
+		    	   System.out.println(" "+i);
+		   }
+	   }
+
+	}
+
+}
