@@ -1,0 +1,25 @@
+package Loop;
+import java.util.*;
+
+public class ArithmeticSeries 
+{
+    public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("Enter Start position=");
+		int a=sc.nextInt();
+		System.out.println("Enter Difference=");
+		int d=sc.nextInt();
+		System.out.println("Enter Limit=");
+		int n=sc.nextInt();
+		int n1=a;
+		
+		for(int i=0;i<=n;i++)
+		{
+			a=a+i*d;
+			System.out.println(" "+a);
+			a=n1;
+		}
+     }
+}
