@@ -1,0 +1,30 @@
+package Loop;
+
+import java.util.Scanner;
+
+public class Question41 {
+
+	public static void main(String[] args)
+	{
+	   Scanner sc=new Scanner(System.in);
+	   System.out.println("enter Number=");
+	   int n=sc.nextInt();
+	   int di,f,n1=n,s=0;
+	   while(n>0)
+	   {
+		   di=n%10;
+		   f=1;
+		   for(int i=1;i<=di;i++)
+		   {
+			   f=f*i;
+		   }
+			s=s+f;	
+		  n=n/10;
+		}
+       if(n1==s)
+    	   System.out.println("Number is Strong Number");
+       else
+    	   System.out.println("Number is not Strong Number");
+	}
+
+}
