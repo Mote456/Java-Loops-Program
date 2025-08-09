@@ -2,7 +2,8 @@
 
 package Loop;
 
-public class NeonNumber {
+public class NeonNumber 
+{
 
 	public static void main(String[] args)
 	{
