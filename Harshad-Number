@@ -1,9 +1,9 @@
 package Loop;
 
 //The number divided by sum of its digit
-public class HarshadNumber {
-
-	public static void main(String[] args)
+public class HarshadNumber
+{
+    public static void main(String[] args)
 	{
 		int n1,s;
 		System.out.println("Harshad Number=");
